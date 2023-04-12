@@ -26,9 +26,8 @@ while(a<=12):
     if cartas_usuario[a]=="K":
           cartas_usuario[a]=13  
     
-    else: #forma que arrumei para tornar os valores inteiros
-        b=cartas_usuario[a]
-        cartas_usuario[a]=b
+    else: 
+        cartas_usuario[a]=cartas_usuario[a]
     a=a+1
 
 
