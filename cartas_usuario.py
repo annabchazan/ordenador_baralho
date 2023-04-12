@@ -33,13 +33,17 @@ while(a<=12):
 
 
 
-cartas_ordendas=[]
+cartas_ordenadas=[]
     
 c=1
 d=0
-while(c<=2):
+while(c<=13):
     if cartas_usuario[d]==c:
-         print("teste")  
-    if cartas_usuario[d]!=c:
+         cartas_ordenadas.append(cartas_usuario[d]
+         c=c+1
+         d=o
+    else:
          d=d+1
-    c=c+1
+         d=d+1
+ 
+print(cartas_ordenadas)
