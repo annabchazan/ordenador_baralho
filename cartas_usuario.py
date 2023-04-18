@@ -58,5 +58,6 @@ for i in range(len(cartas_ordenadas)):
     
     elif cartas_ordenadas[i]==13:
           cartas_ordenadas[i]="K"
- 
+            
+#exibe as cartas ordenadas
 print('\n', cartas_ordenadas)
